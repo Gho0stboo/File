@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/*"
+  to = "/login"
+  status = 200
+  force = true
+  headers = { 
+    "Cache-Control" = "no-store",
+  }
